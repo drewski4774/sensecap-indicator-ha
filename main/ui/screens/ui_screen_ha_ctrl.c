@@ -87,7 +87,7 @@ void ui_screen_ha_ctrl_screen_init(void)
     lv_obj_set_x(ui_switch5_label1, 0);
     lv_obj_set_y(ui_switch5_label1, -5);
     lv_obj_set_align(ui_switch5_label1, LV_ALIGN_BOTTOM_MID);
-    lv_label_set_text(ui_switch5_label1, "Switch5");
+    lv_label_set_text(ui_switch5_label1, "Sonos Beam");
     lv_obj_set_style_text_color(ui_switch5_label1, lv_color_hex(0x9E9E9E), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_switch5_label1, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui_switch5_label1, &lv_font_montserrat_18, LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -98,7 +98,7 @@ void ui_screen_ha_ctrl_screen_init(void)
     lv_obj_set_x(ui_switch5_arc_data1, 0);
     lv_obj_set_y(ui_switch5_arc_data1, -50);
     lv_obj_set_align(ui_switch5_arc_data1, LV_ALIGN_BOTTOM_MID);
-    lv_label_set_text(ui_switch5_arc_data1, "70 °C");
+    lv_label_set_text(int(ui_switch5_arc_data1 / 2.5), "30");
     lv_obj_set_style_text_color(ui_switch5_arc_data1, lv_color_hex(0xFFFFFF), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_switch5_arc_data1, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui_switch5_arc_data1, &lv_font_montserrat_24, LV_PART_MAIN | LV_STATE_DEFAULT);
