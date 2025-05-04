@@ -539,7 +539,7 @@ void ui_init(void)
                                                true, LV_FONT_DEFAULT);
     lv_disp_set_theme(dispp, theme);
     ui_screen_ha_mix_screen_init();
-    ui_screen_ha_data_screen_init();
+//    ui_screen_ha_data_screen_init();
     ui_screen_ha_ctrl_screen_init();
     ui_screen_setting_screen_init();
     ui_screen_wifi_screen_init();
