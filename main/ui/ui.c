@@ -44,35 +44,35 @@ lv_obj_t * ui_wifi_st_1;
 
 
 // SCREEN: ui_screen_ha_data
-//void ui_screen_ha_data_screen_init(void);
-//void ui_event_screen_ha_data(lv_event_t * e);
-//lv_obj_t * ui_screen_ha_data;
-//lv_obj_t * ui_panel_top_1;
-//lv_obj_t * ui_time_ha_data;
-//lv_obj_t * ui_screen_home_data_label1;
-//void ui_event_wifi__st_button_ha_data(lv_event_t * e);
-//lv_obj_t * ui_wifi__st_button_ha_data;
-//lv_obj_t * ui_wifi_st_2;
-//lv_obj_t * ui_sensor1_btn1;
-//lv_obj_t * ui_sensor1_logo1;
-//lv_obj_t * ui_sensor1_label1;
-//lv_obj_t * ui_sensor_data_temp_2;
-//lv_obj_t * ui_sensor1_unit1;
-//lv_obj_t * ui_sensor2_btn1;
-//lv_obj_t * ui_sensor2_logo1;
-//lv_obj_t * ui_sensor2_label1;
-//lv_obj_t * ui_sensor_data_humi_2;
-//lv_obj_t * ui_sensor2_unit1;
-//lv_obj_t * ui_sensor3_btn1;
-//lv_obj_t * ui_sensor3_logo1;
-//lv_obj_t * ui_sensor3_label1;
-//lv_obj_t * ui_sensor_data_tvoc_2;
-//lv_obj_t * ui_sensor3_unit1;
-//lv_obj_t * ui_sensor4_btn1;
-//lv_obj_t * ui_sensor4_logo1;
-//lv_obj_t * ui_sensor4_label1;
-//lv_obj_t * ui_sensor_data_co2_2;
-//lv_obj_t * ui_sensor4_unit1;
+void ui_screen_ha_data_screen_init(void);
+void ui_event_screen_ha_data(lv_event_t * e);
+lv_obj_t * ui_screen_ha_data;
+lv_obj_t * ui_panel_top_1;
+lv_obj_t * ui_time_ha_data;
+lv_obj_t * ui_screen_home_data_label1;
+void ui_event_wifi__st_button_ha_data(lv_event_t * e);
+lv_obj_t * ui_wifi__st_button_ha_data;
+lv_obj_t * ui_wifi_st_2;
+lv_obj_t * ui_sensor1_btn1;
+lv_obj_t * ui_sensor1_logo1;
+lv_obj_t * ui_sensor1_label1;
+lv_obj_t * ui_sensor_data_temp_2;
+lv_obj_t * ui_sensor1_unit1;
+lv_obj_t * ui_sensor2_btn1;
+lv_obj_t * ui_sensor2_logo1;
+lv_obj_t * ui_sensor2_label1;
+lv_obj_t * ui_sensor_data_humi_2;
+lv_obj_t * ui_sensor2_unit1;
+lv_obj_t * ui_sensor3_btn1;
+lv_obj_t * ui_sensor3_logo1;
+lv_obj_t * ui_sensor3_label1;
+lv_obj_t * ui_sensor_data_tvoc_2;
+lv_obj_t * ui_sensor3_unit1;
+lv_obj_t * ui_sensor4_btn1;
+lv_obj_t * ui_sensor4_logo1;
+lv_obj_t * ui_sensor4_label1;
+lv_obj_t * ui_sensor_data_co2_2;
+lv_obj_t * ui_sensor4_unit1;
 
 
 // SCREEN: ui_screen_ha_ctrl
