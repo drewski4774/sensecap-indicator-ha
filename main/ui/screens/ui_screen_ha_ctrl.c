@@ -85,7 +85,7 @@ void ui_screen_ha_ctrl_screen_init(void)
     lv_obj_set_width(ui_switch5_label1, LV_SIZE_CONTENT);   /// 1
     lv_obj_set_height(ui_switch5_label1, LV_SIZE_CONTENT);    /// 1
     lv_obj_set_x(ui_switch5_label1, 0);
-    lv_obj_set_y(ui_switch5_label1, -5);
+    lv_obj_set_y(ui_switch5_label1, 5);
     lv_obj_set_align(ui_switch5_label1, LV_ALIGN_BOTTOM_MID);
     lv_label_set_text(ui_switch5_label1, "Sonos Beam");
     lv_obj_set_style_text_color(ui_switch5_label1, lv_color_hex(0x9E9E9E), LV_PART_MAIN | LV_STATE_DEFAULT);
